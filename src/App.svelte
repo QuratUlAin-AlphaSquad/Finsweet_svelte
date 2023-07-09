@@ -1,7 +1,12 @@
 <script>
+	import NavBar from './Components/NavBar.svelte'
+	import Content from './Components/Content.svelte'
+
 	export let name;
 </script>
 
+<NavBar />
+<Content />
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
