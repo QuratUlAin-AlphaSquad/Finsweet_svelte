@@ -344,9 +344,8 @@ line-height: 28px;
 
     }
 
-    @media only screen and (min-width: 992px) {
-      
-    }
+   
+    
     @media only screen and (min-width: 1200px) {
       .footer{
     width: 100%;

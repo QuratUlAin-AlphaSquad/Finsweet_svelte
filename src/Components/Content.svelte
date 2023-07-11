@@ -684,7 +684,8 @@ justify-content: center; */
         
     }
     .cards{
-max-width: 1280px;
+max-width: 1280
+px;
         width: 100%;
     }
 }

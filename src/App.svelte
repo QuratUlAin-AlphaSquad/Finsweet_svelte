@@ -33,6 +33,7 @@
 		max-width: 1278px;
 		width: 100%;
 		margin-left: auto;
-		margin-right: auto;
+		margin-right: 
+		auto;
 	}
 </style>
