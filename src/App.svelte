@@ -1,35 +1,38 @@
 <script>
 	import NavBar from './Components/NavBar.svelte'
 	import Content from './Components/Content.svelte'
-
-	export let name;
+	import Footer from './Components/Footer.svelte';
+    import ReadBlog from './Pages/ReadBlog.svelte';
 </script>
 
-<NavBar />
+<!-- <ReadBlog /> -->
+<div class="finsweetBlog">
+	<NavBar />
+
 <Content />
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
-
+<Footer />
+</div>
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
+
+	/* main { */
+		/* text-align: center; */
+		/* padding: 1em;
 		max-width: 240px;
-		margin: 0 auto;
-	}
+		margin: 0 auto; */
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+	/* } */
 
-	@media (min-width: 640px) {
+
+	/* @media (min-width: 640px) {
 		main {
 			max-width: none;
 		}
+	} */
+
+	.finsweetBlog{
+		max-width: 1278px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 </style>

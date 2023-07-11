@@ -5,7 +5,7 @@
 <main class="navBar">
     <!-- Logo -->
 <div class="logo">
-    <svg xmlns="http://www.w3.org/2000/svg" width="122" height="25" viewBox="0 0 122 25" fill="none">
+    <svg class="navSvg" xmlns="http://www.w3.org/2000/svg" width="122" height="25" viewBox="0 0 122 25" fill="none">
         <g clip-path="url(#clip0_120_76)">
           <path d="M121.784 18.8714V21.8905H119.251C116.549 21.8056 115.105 20.3462 115.105 17.6051V10.7097H113.336V8.06125H115.105V5.09619H118.842V8.03037H121.699V10.6711H118.842V17.2344C118.842 18.1224 119.019 18.8328 120.386 18.8328L121.784 18.8714Z" fill="white"/>
           <path d="M98.4417 15.0029V14.8021C98.4013 13.914 98.5365 13.0267 98.8397 12.191C99.1428 11.3552 99.6079 10.5876 100.208 9.93193C100.809 9.2763 101.533 8.74561 102.338 8.37027C103.144 7.99493 104.016 7.78232 104.905 7.74463C105.082 7.74463 105.268 7.74463 105.445 7.74463C108.974 7.74463 112.07 9.79855 112.07 14.694V15.7364H102.264C102.364 17.9911 103.584 19.2651 105.638 19.2651C107.406 19.2651 108.233 18.493 108.472 17.3656H112.001C111.568 20.3075 109.221 21.9445 105.507 21.9445C101.43 21.9136 98.4417 19.3346 98.4417 15.0029ZM108.395 13.3736C108.263 11.3197 107.229 10.3313 105.43 10.3313C103.631 10.3313 102.596 11.4432 102.341 13.3736H108.395Z" fill="white"/>
@@ -25,18 +25,22 @@
       </svg>
 </div>
 <div class="navItems">
-    <p>Home</p>
-    <p>About us</p>
-    <p>Features</p>
-    <p>Pricing</p>
-    <p>FAQ</p>
-    <p>Blog</p>
+    <a class="navLinks" href="/">Home</a>
+    <a class="navLinks" href="/about">AboutUs</a>
+    <a class="navLinks" href="/Features">Features</a>
+    <a class="navLinks" href="/Pricing">Pricing</a>
+    <a class="navLinks" href="/FAQ">FAQ</a>
+    <a class="navLinks" href="/Blog">Blog</a>
 
 <button class="btnNavContact">Contact us</button>
 </div>
 </main>
 
 <style>
+    .navLinks{
+        /* text-decoration: none; */
+        color: white;
+    }
 .navBar{
     /* margin-top: 0 auto; */
 /* margin-left: 0 auto; */
@@ -82,5 +86,161 @@ height: 60px;
 border: 2px solid rgba(244, 246, 252, 0.20);
 background-color: transparent;
 color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+        .navBar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:space-evenly;
+            gap:20px;
+            font-size: 7px;
+            min-height: 62px;
+/* font-style: normal;
+font-weight: 500;
+line-height: 28px; */
+            /* background-color: blueviolet; */
+        }
+        .logo{
+            display: flex;
+            /* align-items: flex-start; */
+            /* width: 50%; */
+            width: 60px;
+/* height: 24.709px; */
+
+        }
+        .navItems{
+            display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:12px;
+        }
+        .navSvg{
+            width: 50px;
+            height: 50px;
+        }
+        .btnNavContact{
+    width: 75px;
+height: 25px;
+/* flex-shrink: 0; */
+    border-radius: 41px;
+border: 2px solid rgba(244, 246, 252, 0.20);
+background-color: transparent;
+color: white;
+}
+
+    }
+
+    @media only screen and (min-width: 768px) {
+   
+    }
+
+    @media only screen and (min-width: 992px) {
+        .navSvg{
+            width: 90%;
+            height: 90%;
+        }
+        .navBar{
+    /* margin-top: 0 auto; */
+/* margin-left: 0 auto; */
+
+ background-color: #1C1E53;
+ /* max-width: 1600px; */
+ width: 100%;
+min-height: 92px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 120px;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+color: var(--white, #FFF);
+
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* justify-self: center; */
+    
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:32px;
+}
+.btnNavContact{
+    width: 185px;
+height: 60px;
+/* flex-shrink: 0; */
+    border-radius: 41px;
+border: 2px solid rgba(244, 246, 252, 0.20);
+background-color: transparent;
+color: white;
+}
+    }
+    @media only screen and (min-width: 1200px) {
+        .navSvg{
+            width: 80%;
+            height: 80%;
+        }
+        .navBar{
+    /* margin-top: 0 auto; */
+/* margin-left: 0 auto; */
+
+ background-color: #1C1E53;
+ /* max-width: 1200px; */
+ width: 100%;
+min-height: 92px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 152px;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+color: var(--white, #FFF);
+
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    /* justify-self: center; */
+    
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:32px;
+}
+.btnNavContact{
+    width: 185px;
+height: 60px;
+/* flex-shrink: 0; */
+    border-radius: 41px;
+border: 2px solid rgba(244, 246, 252, 0.20);
+background-color: transparent;
+color: white;
+}
 }
 </style>
