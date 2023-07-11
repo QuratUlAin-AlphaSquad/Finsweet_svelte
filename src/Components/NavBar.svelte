@@ -1,7 +1,7 @@
 <!-- <script>
 
 </script> -->
-
+git config --global push.default current
 <main class="navBar">
     <!-- Logo -->
 <div class="logo">
