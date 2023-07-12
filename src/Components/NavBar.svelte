@@ -3,6 +3,7 @@
 </script> -->
 
 <main class="navBar">
+    <!-- <a href="./Footer.svelte" alt="xzy">abc</a> -->
     <!-- Logo -->
 <div class="logo">
     <svg class="navSvg" xmlns="http://www.w3.org/2000/svg" width="122" height="25" viewBox="0 0 122 25" fill="none">

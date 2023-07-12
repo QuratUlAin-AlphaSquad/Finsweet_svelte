@@ -27,7 +27,7 @@
             same illusion which lifts the horizon of the sea to the level of the
             spectator on a hillside.
         </p>
-        <a class="readMore1" href="../Pages/ReadBlog.svelte">Read more</a>
+        <a class="readMore1" href="./NavBar.svelte">Read more</a>
     </div>
     <!-- Cards -->
     <div class="cards">
@@ -45,7 +45,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="readMore" class="readMore"
+                <a href="ReadMore" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
