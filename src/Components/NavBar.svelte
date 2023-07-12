@@ -135,8 +135,58 @@ color: white;
     }
 
     @media only screen and (min-width: 768px) {
-   
+        .navSvg{
+            width: 100%;
+            height: 100%;
+        }
+        .navBar{
+    /* margin-top: 0 auto; */
+/* margin-left: 0 auto; */
+
+ background-color: #1C1E53;
+ /* max-width: 1600px; */
+ width: 100%;
+min-height: 92px;
+color:white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 90px;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+color: var(--white, #FFF);
+
+
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* justify-self: center; */
+    
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+.btnNavContact{
+    width: 120px;
+height: 40px;
+/* flex-shrink: 0; */
+    border-radius: 41px;
+border: 2px solid rgba(244, 246, 252, 0.20);
+background-color: transparent;
+color: white;
+}
     }
+    
 
     @media only screen and (min-width: 992px) {
         .navSvg{

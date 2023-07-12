@@ -517,6 +517,7 @@ justify-content: center; */
         align-items: center;
         gap: 32px;
         margin-top: 48px;
+        /* width: auto; */
     }
     .cardRow2 {
         display: flex;
@@ -670,7 +671,7 @@ justify-content: center; */
     }
     .cardRow1 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 32px;
         margin-top: 48px;
         /* max-width: 900px; */
@@ -678,16 +679,15 @@ justify-content: center; */
     }
     .cardRow2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 32px;
         margin-top: 48px;
         
     }
-    .cards{
-max-width: 1280
-px;
+    /* .cards{
+max-width: 1280px; 
         width: 100%;
-    }
+    } */
 }
 
 </style>
