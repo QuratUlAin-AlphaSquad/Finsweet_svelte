@@ -6,12 +6,14 @@
 </script>
 
 <!-- <ReadBlog /> -->
+<NavBar />
+
 <div class="finsweetBlog">
-	<NavBar />
 
 <Content />
-<Footer />
 </div>
+<Footer />
+
 <style>
 
 	/* main { */
@@ -33,7 +35,6 @@
 		max-width: 1278px;
 		width: 100%;
 		margin-left: auto;
-		margin-right: 
-		auto;
+		margin-right: auto;
 	}
 </style>

@@ -37,6 +37,10 @@
 </main>
 
 <style>
+    /* body{
+        margin: 0;
+        padding: 0;
+    } */
     .navLinks{
         /* text-decoration: none; */
         color: white;
@@ -65,6 +69,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 28px;
+/* margin-left: 0 auto;
+margin-right: 0 auto; */
+/* padding-left: 0 ;
+padding-right: 0; */
+margin: 0;
+padding: 0;
 }
 .logo{
     display: flex;
@@ -103,6 +113,54 @@ color: white;
 font-weight: 500;
 line-height: 28px; */
             /* background-color: blueviolet; */
+            margin: 0;
+padding: 0;
+        }
+        .logo{
+            display: flex;
+            /* align-items: flex-start; */
+            /* width: 50%; */
+            width: 60px;
+/* height: 24.709px; */
+
+        }
+        .navItems{
+            display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:12px;
+        }
+        .navSvg{
+            width: 50px;
+            height: 50px;
+        }
+        .btnNavContact{
+    width: 75px;
+height: 25px;
+/* flex-shrink: 0; */
+    border-radius: 41px;
+border: 2px solid rgba(244, 246, 252, 0.20);
+background-color: transparent;
+color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+        .navBar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:space-evenly;
+            gap:20px;
+            font-size: 7px;
+            min-height: 62px;
+/* font-style: normal;
+font-weight: 500;
+line-height: 28px; */
+            /* background-color: blueviolet; */
+            margin: 0;
+padding: 0;
         }
         .logo{
             display: flex;

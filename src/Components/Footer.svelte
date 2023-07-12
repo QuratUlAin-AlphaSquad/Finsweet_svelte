@@ -344,6 +344,361 @@ line-height: 28px;
 
     }
 
+    @media only screen and (min-width: 600px) {
+  .footerSvg{
+    width: 110px;
+    height: auto;
+  }
+  .footer{
+    width: 100%;
+min-height: 397px;
+background: #1C1E53;
+color: white;
+display: flex;
+/* flex-direction: column; */
+align-items: flex-end;
+justify-content: space-around;
+margin-top: 50px;
+/* gap: 142px; */
+}
+.footerDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 142px; */
+
+    margin-top: 50px;
+
+}
+
+.footerPara1{
+    display: flex;
+max-width: 399px;
+color: var(--white, #FFF);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.footerContacts{
+    max-width: 517px;
+flex-shrink: 0;
+background: var(--yellow, #FCD980);
+color: var(--dark-blue, #282938);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.footercontactLabel{
+    color: var(--dark-blue, #282938);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.footerContact{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.letsTalk{
+    display: flex;
+max-width:333px;
+flex-direction: column;
+
+color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.letsTalkPara{
+    display: flex;
+width: 399px;
+flex-direction: column;
+
+color: #F4F6FC;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-top: -30px;
+}
+.socialMedia{
+    display: flex;
+    gap: 26.67px;
+}
+.footerFinSweet{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.footerDiv2{
+    margin-bottom: 30px;
+}
+.copyRightMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: var(--dark-blue, #282938);
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 14px;
+font-style: bold;
+font-weight: 500;
+line-height: 28px;
+}
+.copyRightItems{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+
+    }
+
+    @media only screen and (min-width: 778px) {
+      .footer{
+    width: 100%;
+    /* max-width: 1600px; */
+min-height: 397px;
+/* margin-top: 128px; */
+background: #1C1E53;
+color: white;
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+margin-top: 96px;
+/* gap: 142px; */
+}
+.footerDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+
+    margin-top: 104px;
+
+}
+
+.footerPara1{
+    display: flex;
+max-width: 399px;
+color: var(--white, #FFF);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.footerContacts{
+    max-width: 517px;
+min-height: 95px;
+background: var(--yellow, #FCD980);
+color: var(--dark-blue, #282938);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.footercontactLabel{
+    color: var(--dark-blue, #282938);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.footerContact{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.letsTalk{
+    display: flex;
+max-width:333px;
+flex-direction: column;
+
+color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.letsTalkPara{
+    display: flex;
+width: 399px;
+flex-direction: column;
+
+color: #F4F6FC;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-top: -30px;
+}
+.socialMedia{
+    display: flex;
+    gap: 26.67px;
+    margin-bottom: 50px;
+}
+.footerFinSweet{
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+.footerDiv2{
+    margin-top: -55px;
+}
+.copyRightMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    color: var(--dark-blue, #282938);
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: bold;
+font-weight: 500;
+line-height: 28px;
+}
+.copyRightItems{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+    }
+
+    @media only screen and (min-width: 992px) {
+      .footer{
+    width: 100%;
+    /* max-width: 1600px; */
+min-height: 397px;
+/* margin-top: 128px; */
+background: #1C1E53;
+color: white;
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+margin-top: 96px;
+/* gap: 142px; */
+}
+.footerDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+
+    margin-top: 104px;
+
+}
+
+.footerPara1{
+    display: flex;
+max-width: 399px;
+color: var(--white, #FFF);
+
+/* Label 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.footerContacts{
+    max-width: 517px;
+min-height: 95px;
+background: var(--yellow, #FCD980);
+color: var(--dark-blue, #282938);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.footercontactLabel{
+    color: var(--dark-blue, #282938);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.footerContact{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.letsTalk{
+    display: flex;
+max-width:333px;
+flex-direction: column;
+
+color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+}
+.letsTalkPara{
+    display: flex;
+width: 399px;
+flex-direction: column;
+
+color: #F4F6FC;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-top: -30px;
+}
+.socialMedia{
+    display: flex;
+    gap: 26.67px;
+}
+.footerFinSweet{
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+.footerDiv2{
+    margin-top: -55px;
+}
+.copyRightMainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    color: var(--dark-blue, #282938);
+
+/* Body 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: bold;
+font-weight: 500;
+line-height: 28px;
+}
+.copyRightItems{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+    }
+
    
     
     @media only screen and (min-width: 1200px) {
